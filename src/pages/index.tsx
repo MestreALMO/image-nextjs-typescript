@@ -1,6 +1,8 @@
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
+import MUI from "../images/MUI.png";
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +15,10 @@ const Home: NextPage = () => {
 
       <main>
         <Typography variant="h1">DevALMO, YouTube channel</Typography>
+
+        <Box sx={{ display: "block", maxWidth: "600px" }}>
+          <Image src={MUI} alt="MUI" layout="responsive" />
+        </Box>
       </main>
 
       <footer></footer>
