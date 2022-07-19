@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <main>
         <Typography variant="h1">DevALMO, YouTube channel</Typography>
 
-        <Box sx={{ display: "block", maxWidth: "600px" }}>
+        <Box sx={{ display: "block", maxWidth: "600px", width: "100%" }}>
           <Image src={MUI} alt="MUI" layout="responsive" />
         </Box>
       </main>
